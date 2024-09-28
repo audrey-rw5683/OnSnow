@@ -1,7 +1,47 @@
 body {
+    font-family: 'Montserrat', cyrillic-ext;
     margin: 0;
     overflow: hidden;
     background-color: black;
-    color:white;
+    color:rgb(255, 255, 255);
   }
-  
+  .theme-title {
+    font-family: 'Montserrat', cyrillic;
+    font-size: 4rem;
+  }
+
+.log-btn {
+    color: #000000; 
+    background-color: white; 
+    /* border: none;  */
+}
+
+
+
+.intro-text {
+  font-size: 2rem;
+  color: #7f8c8d;
+  line-height: 2;
+  background-color: rgb(36, 34, 34, 0.7);
+  padding: 20px; /* Add padding for spacing inside the text box */
+  border-radius: 15px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+  border: 2px solid rgba(255, 255, 255, 0.2); 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.bold-text {
+  color: white;
+}
+
+.mynav {
+  font-size: 2rem;
+}
+
+.navbar {
+  font-size: 2rem;
+}
+
+.btn-simple {
+  font-size: 1.5rem;
+}
